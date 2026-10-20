@@ -64,6 +64,18 @@ h2{line-height:1.06}
 .top-note,.trust-items,.book span{letter-spacing:.2em}
 .cta{font-weight:400;letter-spacing:.16em}
 @media(max-width:600px){h1{letter-spacing:-.045em}h2{letter-spacing:-.035em}.brand{font-size:18px}}
+
+/* Ajustes de legibilidade para títulos, especialmente em telas pequenas */
+h1,h2,h3{letter-spacing:-.025em;line-height:1.16}
+h1{max-width:780px}
+.hero h1{line-height:1.14;letter-spacing:-.028em}
+@media(max-width:650px){
+  h1{font-size:clamp(36px,9.5vw,48px);line-height:1.16;letter-spacing:-.022em;max-width:100%;}
+  .hero h1{font-size:clamp(36px,9.5vw,48px);line-height:1.16;letter-spacing:-.022em;}
+  h2{font-size:clamp(30px,8vw,38px);line-height:1.18;letter-spacing:-.02em;}
+  .finish-copy h2{font-size:clamp(30px,8vw,38px);line-height:1.18;}
+  .center h2,.faq-title{font-size:clamp(30px,8vw,38px);line-height:1.18;}
+}
 </style>
 </head>
 <body>
